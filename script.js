@@ -3,7 +3,7 @@ let randoMot = Math.floor(Math.random() * alexandrieCramee.length)
 
 let motDefini = alexandrieCramee[randoMot]
 
-
+//split renvoit directement un tableau
 const lettresSecretes = motDefini.split("");
 
 const lettresDecouvertes = []
